@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.8" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.shape" />
+          <option value="list.labels" />
+          <option value="builtins.print.*" />
+          <option value="xgboost" />
+          <option value="pandas" />
+          <option value="colorcet" />
+          <option value="main.plotly" />
+          <option value="urllib.parse" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
