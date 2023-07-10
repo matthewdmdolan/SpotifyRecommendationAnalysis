@@ -1,13 +1,13 @@
-from airflow import DAG
-from airflow.utils.dates import datetime
 import pendulum
-import pandas as pd
-import matplotlib.pyplot as plt
+from datetime import datetime, timedelta
 from math import pi
+import matplotlib.pyplot as plt
+import pandas as pd
+import pendulum
+from airflow.models import DAG
+from airflow.operators.python import PythonOperator
 from sklearn.preprocessing import MinMaxScaler
 import cfg
-import time
-from datetime import datetime, timedelta
 
 # Set the UTC timezone
 local_tz = pendulum.timezone("UTC")
