@@ -18,9 +18,5 @@ from turtle import st
 #add_page_title()
 
 # Using "with" notation
-with st.sidebar:
-    add_radio = st.radio(
-    "...",
-        ("Home", "EDA", "ML")
-    )
+
 

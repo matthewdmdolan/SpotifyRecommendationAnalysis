@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import spotipy
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
+from urllib3.util.retry import Retry
 from spotipy.oauth2 import SpotifyClientCredentials
 
 import cfg
